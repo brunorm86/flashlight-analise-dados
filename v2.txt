@@ -1,0 +1,25 @@
+I've restructured the notebook to be optimized for PyCharm by:
+
+1. **Using PyCharm's Cell Format**: PyCharm uses the `# %%` format for code cells and `# %% [markdown]` for markdown cells, which I've implemented throughout the notebook.
+
+2. **Dividing Into Logical Cells**: I've broken down the analysis into smaller, focused cells that:
+   - Each perform a specific task or analysis
+   - Allow for step-by-step execution
+   - Make debugging easier if any issues arise
+
+3. **Organized Structure**: The notebook maintains the same comprehensive analysis flow but now with clear cell separations:
+   - Setup and data loading
+   - Data cleaning
+   - Revenue analysis
+   - Customer behavior and churn risk analysis
+   - Product performance
+   - Cross-selling analysis
+   - Recommendations and insights
+   - Executive summary
+   - Dashboard preparation
+   - Financial projections
+   - Implementation roadmap
+
+4. **Easy Execution**: Each cell can be executed independently in PyCharm by clicking the green "play" button that appears in the gutter next to the cell markers or by using keyboard shortcuts.
+
+This structure makes the notebook more maintainable when working in PyCharm, as you can run and test individual code blocks without executing the entire script.
